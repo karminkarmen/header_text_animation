@@ -1,0 +1,89 @@
+//Font
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+//colors
+$dark: #1B264F;
+$accent: #E84A5F;
+$accent2: #FFF4E1;
+$white: #FECEA8;
+$grey: #2A363B;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', Sans-Serif;
+  font-size: 62.5%; /* 10px */
+  width: 100%;
+  height: 100vh;
+  background-color: $grey;
+}
+
+button {
+  border: 0;
+  text-decoration: none;
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: absolute;
+  left: calc(50% - 55px);
+  top: calc(50%);
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  font-size: 0.6rem;
+  color: $accent2;
+  background-color: transparent;
+  text-align: center;
+  padding: 0;
+}
+
+div {
+  height: 500px;
+  width: 800px;
+  position: relative;
+  left: calc(50% - 400px);
+  top: calc(50% - 200px);
+  color: $white;
+  font-family: 'Pacifico';
+  font-size: 3rem;
+  text-align: center;
+  padding-top: 6rem;
+  animation: blinker 10s linear infinite;
+  text-shadow: 0px 0px 21px $accent;
+  transition: 1s ease;
+}
+
+p {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: absolute;
+  left: calc(50% - 5px);
+  top: calc(50%);
+  border: none;
+  margin: 0;
+  outline: 0;
+  font-size: 0.6rem;
+  color: $accent2;
+  background-color: transparent;
+  text-align: center;
+}
+
+
+@keyframes blinker {
+  50% {
+    opacity: 0.8;
+    color: white;
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+
+.center {
+  left: calc(50% - 60px);
+}
