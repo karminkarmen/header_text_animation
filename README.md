@@ -5,4 +5,4 @@ Animation for header. Picked pen on codepen.
 
 **Technologies: HTML, CSS, JS**
 
-<a href="https://karminkarmen.github.io/header-text-animation/">**LINK TO PREWIEV**</a>
+<a href="https://karminkarmen.github.io/header-text-animation/">**LINK TO PREVIEW**</a>
